@@ -1,0 +1,8 @@
+<form action="/myform" method="post">
+  <input type="text" name="message" />
+  <input type="submit" />
+</form>
+
+<% @new.each do |print| %>
+	<%=print.content%>
+<%end%>
